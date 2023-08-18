@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".AbhaRegisterVerifyMobileOtpFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/_20sdp"
+        android:paddingTop="@dimen/_40sdp"
+        android:paddingRight="@dimen/_20sdp">
+
+        <TextView
+            android:id="@+id/abha_register_via_aadhar_verify_aadhaar_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:fontFamily="@font/b612_mono"
+            android:gravity="left"
+            android:text="Step 2/3: Verify Your Mobile"
+            android:textColor="#979797"
+            android:textSize="@dimen/_10ssp" />
+
+        <EditText
+            android:id="@+id/abha_register_verify_mobile_mobile_no_et"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginBottom="@dimen/_18sdp"
+            android:height="@dimen/_50sdp"
+            android:background="@drawable/circularbordersolid_grey"
+            android:drawableLeft="@drawable/baseline_phone_24"
+            android:drawablePadding="@dimen/_3sdp"
+            android:drawableTint="#6C6A6A"
+            android:ems="10"
+            android:hint="Mobile No."
+            android:inputType="number"
+            android:paddingLeft="@dimen/_5sdp"
+            android:textSize="@dimen/_15ssp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <EditText
+                android:id="@+id/abha_register_verfiy_mobile_otp_et"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_marginRight="@dimen/_15sdp"
+                android:layout_weight="0.7"
+                android:height="50dp"
+                android:background="@drawable/circularbordersolid_grey"
+                android:drawableLeft="@drawable/key"
+                android:drawablePadding="@dimen/_3sdp"
+                android:drawableTint="#6C6A6A"
+                android:ems="10"
+                android:hint="OTP"
+                android:inputType="number"
+                android:paddingLeft="@dimen/_5sdp"
+                android:textSize="@dimen/_15ssp" />
+
+            <Button
+                android:id="@+id/abha_register_verify_mobile_get_otp_btn"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_52sdp"
+                android:layout_weight="0.3"
+                android:backgroundTint="@color/btn_theme"
+                android:text="GET OTP"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12ssp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/abha_register_verify_mobile_verify_otp_btn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_70sdp"
+            android:backgroundTint="@color/btn_inactive_theme"
+            android:drawableRight="@drawable/baseline_navigate_next_24"
+            android:drawableTint="@color/black"
+            android:paddingLeft="@dimen/_38sdp"
+            android:text="@string/verify_otp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12ssp"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+
+
+</FrameLayout>

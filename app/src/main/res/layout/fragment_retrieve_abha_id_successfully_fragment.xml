@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".retrieve_abha_id_successfully_fragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/_8sdp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:alpha="2"
+                android:gravity="center"
+                android:text="✅ You have successfully retrieved your ABHA ID/ Health ID number."
+                android:textSize="@dimen/_20ssp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_40sdp"
+                android:text="Your Health/ABHA ID number is:"
+                android:textSize="@dimen/_12ssp" />
+
+            <TextView
+                android:id="@+id/abha_retrieved_successfully_health_id_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:clickable="true"
+                android:longClickable="true"
+                android:text="Error while loading your Abha ID"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_30ssp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/abha_retrieved_successfully_copy_health_id_iv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/baseline_content_copy_24" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_50sdp"
+                android:text="Please Login to continue.."
+                android:textSize="@dimen/_25ssp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/abha_retrieved_successfully_to_login_page_btn"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:backgroundTint="@color/btn_theme"
+                android:drawableRight="@drawable/baseline_login_24"
+                android:drawableTint="@color/black"
+                android:paddingLeft="@dimen/_38sdp"
+                android:text="@string/login"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:visibility="visible" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

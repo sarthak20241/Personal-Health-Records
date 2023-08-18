@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="btn_theme">#FA8F5C</color>
+
+    <color name="btn_theme_dark">#F37336</color>
+    <color name="btn_inactive_theme">#A0A0A0</color>
+</resources>

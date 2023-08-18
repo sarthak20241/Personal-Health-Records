@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:fontFamily="@font/roboto"
+        android:text="Select Month">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_margin="10dp"
+
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="98dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="January"
+                android:textSize="14dp"
+                android:fontFamily="@font/roboto"
+                android:gravity="center"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/myrec"
+                android:elevation="2dp">
+            </TextView>
+
+            <View
+                android:layout_width="50dp"
+                android:layout_height="5dp"
+                android:layout_marginTop="60dp"
+                android:background="@drawable/myrec" />
+
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/myrec"
+                android:elevation="2dp">
+
+            </TextView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="190dp"
+                android:background="@drawable/myrec2"
+                android:elevation="2dp">
+
+            </TextView>
+
+
+            <View
+                android:layout_width="50dp"
+                android:layout_height="5dp"
+                android:layout_marginTop="60dp"
+                android:background="@drawable/myrec2" />
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="98dp"
+                android:layout_marginTop="10dp"
+                android:text="Feburary"
+                android:textSize="14dp"
+                android:fontFamily="@font/roboto"
+                android:gravity="center"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/myrec2"
+                android:elevation="2dp">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="98dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="March"
+                android:textSize="14dp"
+                android:fontFamily="@font/roboto"
+                android:gravity="center"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/myrec"
+                android:elevation="2dp">
+            </TextView>
+
+            <View
+                android:layout_width="50dp"
+                android:layout_height="5dp"
+                android:layout_marginTop="60dp"
+                android:background="@drawable/myrec" />
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/myrec"
+                android:elevation="2dp">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="190dp"
+                android:background="@drawable/myrec2"
+                android:elevation="2dp">
+
+            </TextView>
+
+
+            <View
+                android:layout_width="50dp"
+                android:layout_height="5dp"
+                android:layout_marginTop="60dp"
+                android:background="@drawable/myrec2" />
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="98dp"
+                android:layout_marginTop="10dp"
+                android:text="April"
+                android:textSize="14dp"
+                android:fontFamily="@font/roboto"
+                android:gravity="center"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/myrec2"
+                android:elevation="2dp">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="98dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="May"
+                android:textSize="14dp"
+                android:fontFamily="@font/roboto"
+                android:gravity="center"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/myrec"
+                android:elevation="2dp">
+            </TextView>
+
+            <View
+                android:layout_width="50dp"
+                android:layout_height="5dp"
+                android:layout_marginTop="60dp"
+                android:background="@drawable/myrec" />
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/myrec"
+                android:elevation="2dp">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="190dp"
+                android:background="@drawable/myrec2"
+                android:elevation="2dp">
+
+            </TextView>
+
+
+            <View
+                android:layout_width="50dp"
+                android:layout_height="5dp"
+                android:layout_marginTop="60dp"
+                android:background="@drawable/myrec2" />
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="98dp"
+                android:layout_marginTop="10dp"
+                android:text="June"
+                android:textSize="14dp"
+                android:fontFamily="@font/roboto"
+                android:gravity="center"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/myrec2"
+                android:elevation="2dp">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="98dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="July"
+                android:textSize="14dp"
+                android:fontFamily="@font/roboto"
+                android:gravity="center"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/myrec2"
+                android:elevation="2dp">
+            </TextView>
+
+            <View
+                android:layout_width="50dp"
+                android:layout_height="5dp"
+                android:layout_marginTop="60dp"
+                android:background="@drawable/myrec2" />
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/myrec2"
+                android:elevation="2dp">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="190dp"
+                android:background="@drawable/myrec"
+                android:elevation="2dp">
+
+            </TextView>
+
+
+            <View
+                android:layout_width="50dp"
+                android:layout_height="5dp"
+                android:layout_marginTop="60dp"
+                android:background="@drawable/myrec" />
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="98dp"
+                android:layout_marginTop="10dp"
+                android:text="August"
+                android:textSize="14dp"
+                android:fontFamily="@font/roboto"
+                android:gravity="center"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/myrec"
+                android:elevation="2dp">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="98dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="September"
+                android:textSize="14dp"
+                android:fontFamily="@font/roboto"
+                android:gravity="center"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/myrec2"
+                android:elevation="2dp">
+            </TextView>
+
+            <View
+                android:layout_width="50dp"
+                android:layout_height="5dp"
+                android:layout_marginTop="60dp"
+                android:background="@drawable/myrec2" />
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/myrec2"
+                android:elevation="2dp">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="190dp"
+                android:background="@drawable/myrec"
+                android:elevation="2dp">
+
+            </TextView>
+
+
+            <View
+                android:layout_width="50dp"
+                android:layout_height="5dp"
+                android:layout_marginTop="60dp"
+                android:background="@drawable/myrec" />
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="98dp"
+                android:layout_marginTop="10dp"
+                android:text="October"
+                android:textSize="14dp"
+                android:fontFamily="@font/roboto"
+                android:gravity="center"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/myrec"
+                android:elevation="2dp">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="98dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="November"
+                android:textSize="14dp"
+                android:fontFamily="@font/roboto"
+                android:gravity="center"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/myrec2"
+                android:elevation="2dp">
+            </TextView>
+
+            <View
+                android:layout_width="50dp"
+                android:layout_height="5dp"
+                android:layout_marginTop="60dp"
+                android:background="@drawable/myrec2" />
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/myrec2"
+                android:elevation="2dp">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="190dp"
+                android:background="@drawable/myrec2"
+                android:elevation="2dp">
+
+            </TextView>
+
+
+            <View
+                android:layout_width="50dp"
+                android:layout_height="5dp"
+                android:layout_marginTop="60dp"
+                android:background="@drawable/myrec2" />
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="98dp"
+                android:layout_marginTop="10dp"
+                android:text="December"
+                android:textSize="14dp"
+                android:fontFamily="@font/roboto"
+                android:gravity="center"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/myrec2"
+                android:elevation="2dp">
+
+            </TextView>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

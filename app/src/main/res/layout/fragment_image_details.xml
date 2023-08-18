@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ImageDetailsFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Prescription Details"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:background="#404CCF"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/imgPrescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/docicon" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:id="@+id/PatientName"
+                    android:layout_width="379dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/googlelogin"
+                    android:elevation="5dp"
+                    android:paddingTop="10dp"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="64dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp">
+
+                        <ImageView
+                            android:id="@+id/profileiconimage"
+                            android:layout_width="35dp"
+                            android:layout_gravity="center"
+                            android:layout_height="35dp"
+                            app:srcCompat="@drawable/docicon" />
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/patientNameEdtTxt"
+                            style="@style/ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/emailTextBox"
+                                android:layout_width="match_parent"
+                                android:layout_height="73dp"
+                                android:background="@color/white"
+                                android:fontFamily="@font/abeezee"
+                                android:hint="Document name" />
+
+
+                        </com.google.android.material.textfield.TextInputLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:textSize="18dp"
+                    android:fontFamily="@font/abeezee"
+                    android:text="Category">
+
+                </TextView>
+
+                <Spinner
+                    android:id="@+id/categorySpinner"
+                    android:layout_width="374dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:paddingLeft="20dp"
+                    android:background="@drawable/googlelogin"
+                    android:elevation="5dp"
+                    android:gravity="center"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:textSize="18dp"
+                    android:fontFamily="@font/abeezee"
+                    android:text="Document Tag">
+
+                </TextView>
+
+                <Spinner
+                    android:id="@+id/reportTypeSpinner"
+                    android:layout_width="374dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="center"
+                    android:paddingLeft="20dp"
+                    android:background="@drawable/googlelogin"
+                    android:elevation="5dp"
+
+                    />
+                <LinearLayout
+                    android:id="@+id/linearLayout8"
+                    android:layout_width="379dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/googlelogin"
+                    android:elevation="5dp"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                    android:layout_margin="10dp"
+                    android:paddingEnd="10dp"
+                    android:paddingBottom="10dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="64dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp">
+
+                        <ImageView
+                            android:id="@+id/dateiconimage"
+                            android:layout_width="40dp"
+                            android:layout_gravity="center"
+                            android:layout_height="40dp"
+                            app:srcCompat="@drawable/dateicon" />
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/datedata"
+                            style="@style/ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/et2"
+                                android:layout_width="match_parent"
+                                android:layout_height="73dp"
+                                android:background="@color/white"
+                                android:fontFamily="@font/abeezee"
+                                android:hint="Date" />
+
+
+                        </com.google.android.material.textfield.TextInputLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:id="@+id/desc"
+                    android:layout_width="379dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/googlelogin"
+                    android:elevation="5dp"
+                    android:paddingTop="10dp"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp">
+                        <ImageView
+                            android:id="@+id/dateicon"
+                            android:layout_width="32dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_height="32dp"
+                            app:srcCompat="@drawable/descicon" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:textSize="18dp"
+                            android:fontFamily="@font/abeezee"
+                            android:text="Description">
+
+                        </TextView>
+                    </LinearLayout>
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_marginLeft="42dp"
+                        android:layout_marginRight="42dp"
+                        android:id="@+id/descriptionEdtTxt">
+
+                    </EditText>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/docname"
+                    android:layout_width="379dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/googlelogin"
+                    android:elevation="5dp"
+                    android:paddingTop="10dp"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="64dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp">
+
+                        <ImageView
+                            android:id="@+id/doctorImgIcon"
+                            android:layout_width="35dp"
+                            android:layout_gravity="center"
+                            android:layout_height="35dp"
+                            app:srcCompat="@drawable/icondoctor" />
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/docNameEdtTxt"
+                            style="@style/ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/docname2"
+                                android:layout_width="match_parent"
+                                android:layout_height="73dp"
+                                android:background="@color/white"
+                                android:fontFamily="@font/abeezee"
+                                android:hint="Doctors Name" />
+
+
+                        </com.google.android.material.textfield.TextInputLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+                <Button
+                    android:id="@+id/btnSaveDetails"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:text="Save Details"
+                    android:fontFamily="@font/roboto"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="30dp"
+                    android:backgroundTint="#404CCF"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

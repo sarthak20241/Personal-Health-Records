@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AbhaRegisterCreateHealthIdPreVerifiedFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/_20sdp"
+            android:paddingTop="@dimen/_20sdp"
+            android:paddingRight="@dimen/_20sdp"
+            android:paddingBottom="@dimen/_5sdp">
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_15sdp"
+                android:fontFamily="@font/b612_mono"
+                android:gravity="left"
+                android:text="Step 2/3: Enter Your Details"
+                android:textColor="#979797"
+                android:textSize="@dimen/_10ssp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/abha_register_via_aadhaar_create_health_id_with_pre_verified_first_name_label_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="First Name"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12ssp" />
+
+                <EditText
+                    android:id="@+id/abha_register_via_aadhaar_create_health_id_with_pre_verified_First_name_et"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40sdp"
+                    android:height="@dimen/_40sdp"
+                    android:background="@drawable/circularbordersolid_grey"
+                    android:drawableLeft="@drawable/baseline_account_circle_24"
+                    android:drawablePadding="@dimen/_3sdp"
+                    android:drawableTint="#6C6A6A"
+                    android:ems="10"
+                    android:hint="Enter Your First Name"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:textSize="@dimen/_15ssp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/abha_register_via_aadhaar_create_health_id_with_pre_verified_middle_name_label_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="Middle Name"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12ssp" />
+
+                <EditText
+                    android:id="@+id/abha_register_via_aadhaar_create_health_id_with_pre_verified_Middle_name_et"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40sdp"
+                    android:height="@dimen/_40sdp"
+                    android:background="@drawable/circularbordersolid_grey"
+                    android:drawableLeft="@drawable/baseline_account_circle_24"
+                    android:drawablePadding="@dimen/_3sdp"
+                    android:drawableTint="#6C6A6A"
+                    android:ems="10"
+                    android:hint="Enter Your Middle Name"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:textSize="@dimen/_15ssp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/abha_register_via_aadhaar_create_health_id_with_pre_verified_last_name_label_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="Last Name"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12ssp" />
+
+                <EditText
+                    android:id="@+id/abha_register_via_aadhaar_create_health_id_with_pre_verified_Last_name_et"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40sdp"
+                    android:height="@dimen/_40sdp"
+                    android:background="@drawable/circularbordersolid_grey"
+                    android:drawableLeft="@drawable/baseline_account_circle_24"
+                    android:drawablePadding="@dimen/_3sdp"
+                    android:drawableTint="#6C6A6A"
+                    android:ems="10"
+                    android:hint="Enter Your Last Name"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:textSize="@dimen/_15ssp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/abha_register_via_aadhaar_create_health_id_with_pre_verified_Password_label_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="Password"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12ssp" />
+
+                <EditText
+                    android:id="@+id/abha_register_via_aadhaar_create_health_id_with_pre_verified_Password_et"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40sdp"
+                    android:height="@dimen/_40sdp"
+                    android:background="@drawable/circularbordersolid_grey"
+                    android:drawableLeft="@drawable/baseline_account_circle_24"
+                    android:drawablePadding="@dimen/_3sdp"
+                    android:drawableTint="#6C6A6A"
+                    android:ems="10"
+                    android:hint="Enter Password"
+                    android:inputType="textPassword"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:textSize="@dimen/_15ssp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/abha_register_via_aadhaar_create_health_id_with_pre_verified_Re_Enter_Password_label_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="Re-Enter Password"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12ssp" />
+
+                <EditText
+                    android:id="@+id/abha_register_via_aadhaar_create_health_id_with_pre_verified_Re_Enter_Password_et"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40sdp"
+                    android:height="@dimen/_40sdp"
+                    android:background="@drawable/circularbordersolid_grey"
+                    android:drawableLeft="@drawable/baseline_account_circle_24"
+                    android:drawablePadding="@dimen/_3sdp"
+                    android:drawableTint="#6C6A6A"
+                    android:ems="10"
+                    android:hint="Re-Enter Password"
+                    android:inputType="textPassword"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:textSize="@dimen/_15ssp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/abha_register_via_aadhaar_create_health_id_with_pre_verified_Health_ID_label_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="Heath-ID"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12ssp" />
+
+                <EditText
+                    android:id="@+id/abha_register_via_aadhaar_create_health_id_with_pre_verified_Health_ID_et"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40sdp"
+                    android:height="@dimen/_40sdp"
+                    android:background="@drawable/circularbordersolid_grey"
+                    android:drawableLeft="@drawable/baseline_account_circle_24"
+                    android:drawablePadding="@dimen/_3sdp"
+                    android:drawableTint="#6C6A6A"
+                    android:ems="10"
+                    android:hint="Enter a unique Health ID"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:textSize="@dimen/_15ssp" />
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/abha_register_via_aadhaar_create_health_id_with_pre_verified_Register_btn"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:backgroundTint="@color/btn_theme"
+                android:drawableRight="@drawable/baseline_app_registration_24"
+                android:drawableTint="@color/black"
+                android:paddingLeft="@dimen/_38sdp"
+                android:text="Register"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12ssp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

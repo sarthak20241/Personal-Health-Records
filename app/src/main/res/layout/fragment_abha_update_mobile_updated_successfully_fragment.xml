@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/_10sdp"
+    tools:context=".Abha_update_mobile_updated_successfully_fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/abha_register_done_successfully_head_tv2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_40sdp"
+            android:alpha="2"
+            android:gravity="center"
+            android:text="✅ You have successfully changed your Mobile No. for your ABHA ID."
+            android:textSize="@dimen/_20ssp" />
+
+        <TextView
+            android:id="@+id/abha_changed_mobile_successfully_timer_to_finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Taking back to profile page in 5s.."
+            android:textSize="@dimen/_34ssp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</FrameLayout>

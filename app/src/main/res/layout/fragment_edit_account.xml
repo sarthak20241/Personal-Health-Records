@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditAccountFragment">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:layout_width="411dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/abeezee"
+            android:paddingBottom="10dp"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            android:text="Edit Your Account"
+            android:textColor="@color/black"
+            android:textSize="40sp" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout5"
+            android:layout_width="356dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/googlelogin"
+            android:elevation="5dp"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="10dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp">
+
+                <ImageView
+                    android:id="@+id/profile"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/edit_name"
+                    style="@style/ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/editnametb3"
+                        android:layout_width="match_parent"
+                        android:layout_height="73dp"
+                        android:background="@color/white"
+                        android:fontFamily="@font/abeezee"
+                        android:hint="Full Name" />
+
+
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout8"
+            android:layout_width="356dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/googlelogin"
+            android:elevation="5dp"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="10dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp">
+
+                <ImageView
+                    android:id="@+id/profileimage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                  />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/edit_mobile"
+                    style="@style/ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/editmobileet2"
+                        android:layout_width="match_parent"
+                        android:layout_height="73dp"
+                        android:background="@color/white"
+                        android:fontFamily="@font/abeezee"
+                        android:hint="Mobile" />
+
+
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="356dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/googlelogin"
+            android:elevation="5dp"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="10dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp">
+
+                <ImageView
+                    android:id="@+id/abha_user_logged_in_home_page_user_profile_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                   />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/edit_email"
+                    style="@style/ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/editmobileet3"
+                        android:layout_width="match_parent"
+                        android:layout_height="73dp"
+                        android:background="@color/white"
+                        android:fontFamily="@font/abeezee"
+                        android:hint="Email" />
+
+
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+
+<!--        <ImageView-->
+<!--            android:id="@+id/signup_button"-->
+<!--            android:layout_width="245dp"-->
+<!--            android:layout_height="43dp"-->
+<!--         />-->
+
+        <Button
+            android:id="@+id/btnEditAccount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update Details" />
+
+        <Button
+            android:id="@+id/user_logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_60sdp"
+            android:text="Logout" />
+
+
+    </LinearLayout>
+
+</FrameLayout>

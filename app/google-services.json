@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "980102181758",
+    "project_id": "test2-2769e",
+    "storage_bucket": "test2-2769e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:980102181758:android:009dbe367e2fea481ab92f",
+        "android_client_info": {
+          "package_name": "com.example.phrapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "980102181758-07f0mgqik0estpcmicm22r2lpdb8vl4r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdtgl0G1VBBkvPJjhrUlXJBo0zMkt_Rhw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "980102181758-07f0mgqik0estpcmicm22r2lpdb8vl4r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

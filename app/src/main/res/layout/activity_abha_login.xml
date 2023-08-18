@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_grey"
+    tools:context=".Abha_Login">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="@dimen/_20sdp"
+            android:textAlignment="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_bold"
+                    android:text="Welcome back! 👋"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_25sdp" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="We are very glad that you are ready to come back to us!"
+                    android:textSize="@dimen/_15sdp" />
+
+            </LinearLayout>
+
+            <!--        <LinearLayout-->
+            <!--            android:layout_width="match_parent"-->
+            <!--            android:layout_height="wrap_content"-->
+            <!--            android:background="@drawable/circularbordersolid"-->
+            <!--            android:orientation="vertical"-->
+            <!--            android:padding="16dp">-->
+
+            <!--            -->
+
+            <!--        </LinearLayout>-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="@dimen/_18sdp">
+
+                    <RadioButton
+                        android:id="@+id/abha_login_abha_send_aadhaar_otp_radioButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="Send OTP on Aadhaar linked Mobile" />
+
+                    <RadioButton
+                        android:id="@+id/abha_login_abha_send_mobile_otp_radioButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Send OTP on ABHA linked Mobile" />
+
+                </RadioGroup>
+
+                <EditText
+                    android:id="@+id/abha_login_healthid"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_50sdp"
+                    android:layout_marginBottom="@dimen/_18sdp"
+                    android:height="@dimen/_50sdp"
+                    android:background="@drawable/circularbordersolid_grey"
+                    android:drawableLeft="@drawable/id_vector"
+                    android:drawablePadding="3dp"
+                    android:drawableTint="#6C6A6A"
+                    android:ems="10"
+                    android:hint="Health ID"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="@dimen/_5sdp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <EditText
+                        android:id="@+id/abha_login_otp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_50sdp"
+                        android:layout_marginRight="@dimen/_15sdp"
+                        android:layout_weight="0.7"
+                        android:height="50dp"
+                        android:background="@drawable/circularbordersolid_grey"
+                        android:drawableLeft="@drawable/key"
+                        android:drawablePadding="2dp"
+                        android:drawableTint="#6C6A6A"
+                        android:ems="10"
+                        android:hint="OTP"
+                        android:inputType="number"
+                        android:paddingLeft="@dimen/_5sdp" />
+
+                    <Button
+                        android:id="@+id/abha_login_get_otp_btn"
+                        android:layout_width="@dimen/_100sdp"
+                        android:layout_height="@dimen/_52sdp"
+                        android:layout_weight="0.3"
+                        android:backgroundTint="@color/btn_theme"
+                        android:text="GET OTP"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/abha_login_abha_forgot_abha_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_7sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:text="Forgot Your ABHA ID?"
+                    android:textColor="#F37336"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/abha_login_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_50sdp"
+                    android:layout_marginTop="@dimen/_50sdp"
+                    android:backgroundTint="@color/btn_inactive_theme"
+                    android:drawableRight="@drawable/baseline_login_24"
+                    android:drawableTint="@color/black"
+                    android:enabled="false"
+                    android:paddingLeft="@dimen/_38sdp"
+                    android:text="@string/login"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="right"
+                        android:text="Don't have an ABHA ID?"
+                        android:textColor="@color/goodgrey" />
+
+                    <TextView
+                        android:id="@+id/abha_login_abha_register_here_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_5sdp"
+                        android:layout_weight="0.5"
+                        android:text="Register here"
+                        android:textColor="#F37336"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
